@@ -35,7 +35,7 @@
 
 ```
 
-#create a new user
+# Create a new user
 ```
 mutation createUser($user: UserInputType){
  createUser(user: $user) {
