@@ -3,6 +3,7 @@ Types::QueryType = GraphQL::ObjectType.define do
 
   # Users query
   field :user, Types::UserType do
+    description "Return user by id"
     argument :id, types.ID
     resolve ->(_, a, _) { User.find(a[:id]) }
   end
