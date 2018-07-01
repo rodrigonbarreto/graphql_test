@@ -1,13 +1,13 @@
-# examples of query with grpathql 
+# Examples of query with GraphQl 
 
-* I did this simple project test with Rails and GraphQl, to see how works GraphQl :D
+* I did this simple test project with Rails and GraphQl, to see how GraphQl works :D
 
 * first run
  ``` 
- run rake db:drop db:create db:migrate db:seed
+  rake db:drop db:create db:migrate db:seed
  ```
 
-# find user by id
+# Find user by id
 ```
 {
   user(id:1) {
@@ -53,7 +53,7 @@ mutation createUser($user: UserInputType){
 
 ```
 
-# update user
+# Update user
 ```
 mutation updateUser($user: UserInputType){
  updateUser(id: 1, user: $user) {
@@ -66,7 +66,7 @@ mutation updateUser($user: UserInputType){
 }
 ```
 
-# delete user
+# Delete user
 
 ```
 mutation {
@@ -75,7 +75,7 @@ mutation {
 
 ```
 
-# get All users
+# Get All users
 ```
 {
  allUsers {
