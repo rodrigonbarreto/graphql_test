@@ -1,6 +1,11 @@
 # examples of query with grpathql 
 
-* run rake db:drop db:create db:migrate db:seed
+* I did this simple project test with Rails and GraphQl, to see how works GraphQl :D
+
+* first run
+ ``` 
+ run rake db:drop db:create db:migrate db:seed
+ ```
 
 # find user by id
 ```
